@@ -1,4 +1,4 @@
-<%= form_tag '/login', action: "create", method: "post" do %>
+<%= form_tag login_path, action: "create", method: "post" do %>
   <input type="text" name="name" placeholder="enter a name">
   <input type="submit" value="login">
 <% end %>
