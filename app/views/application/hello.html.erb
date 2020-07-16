@@ -1,0 +1,5 @@
+welcome <%= @current_user %><br>
+
+<% if @current_user %>
+  <%= link_to "secret link", secret_path %>
+<% end %>
